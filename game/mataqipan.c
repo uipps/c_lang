@@ -1,5 +1,4 @@
 // 输入坐标： 1 1 或 4 4 , 二维坐标
-// 
 
 #include <stdio.h>
 #include <stdlib.h>
