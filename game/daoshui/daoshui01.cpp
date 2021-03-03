@@ -41,10 +41,8 @@ https://www.sohu.com/a/291640831_120087604
 using namespace std;
 // TODO: reference additional headers your program requires here
 
-
 // bucket_state.h :
-#ifndef __BUCKET_STATE_H__
-#define __BUCKET_STATE_H__
+//#define __BUCKET_STATE_H__
 const int buckets_count = 3;
 struct Action
 {
@@ -71,7 +69,6 @@ struct BucketState
     int bucket_s[buckets_count];
     Action curAction;
 };
-#endif //__BUCKET_STATE_H__
 
 
 // bucket_state.cpp : 
