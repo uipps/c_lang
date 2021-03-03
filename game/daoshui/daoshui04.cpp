@@ -1,4 +1,5 @@
 /*
+-- 实际运行的时候，一直无输出，似乎无限循环；
 
 有三个杯子容积如下：A:80L B:50L  C:30L
 现在将A杯注满水，要达到如下状态(a:40  b:40  c:0)
@@ -6,12 +7,13 @@
 
     参考： https://bbs.csdn.net/topics/70140283
 
+
 */
 
 #include <iostream>
+using namespace std;
 
-class Jug
-{
+class Jug {
 public:
     int Set();
     void FillA();
